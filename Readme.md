@@ -34,7 +34,7 @@ predictor.get_vector_embedding("🐰")
 ```
 
 ### Model:-
-Pre trained model can be found [here](https://drive.google.com/drive/folders/1-8zMyK-xHlf5-siX1ta3WCxJ2lTG8ev2?usp=sharing)
+Pre trained model can be found [here](https://drive.google.com/drive/folders/1-8zMyK-xHlf5-siX1ta3WCxJ2lTG8ev2?usp=sharing), Where woed2vec4 is final model.
 
 ### Results:-
 1. Prediction
