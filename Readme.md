@@ -1,5 +1,5 @@
 # Using word2vec for emojis
-Training Word2Vec model for emojis using twitter data
+Training Word2Vec model for emojis using twitter data.
 
 ### Data:-
 We have 1 million sentences with emojis. This dataset is from twitter and you can download it from [here](https://github.com/AdiShirsath/Machine-Learning-Notes/tree/main/NLP/word2vec/word2vec_emoji/Data).
@@ -11,13 +11,13 @@ We have 1 million sentences with emojis. This dataset is from twitter and you ca
 pip3 install -r requirements.txt
 ```
 
-3. Training word2vec on our data
+2. Training word2vec on our data
 ```
 python3 src.train_word2vec.py --data_path="Data/corpus.txt"
 ```
 * This will train word2vec and save trained models as word2vec.bin
 
-2. Create instance of prediction (In testing_emoji_model.ipynb)
+3. Create instance of prediction (In testing_emoji_model.ipynb)
 ```
 from src.prediction import Prediction
 predictor = Prediction(model_path="word2vec.bin")
