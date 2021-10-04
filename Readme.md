@@ -5,7 +5,13 @@ Training Word2Vec model for emojis using twitter data
 We have 1 million sentences with emojis. This dataset is from twitter and you can download it from [here](https://github.com/AdiShirsath/Machine-Learning-Notes/tree/main/NLP/word2vec/word2vec_emoji/Data).
 
 ### Usage:- 
-1. Training word2vec on our data
+
+1. Install requirements
+```
+pip3 install -r requirements.txt
+```
+
+3. Training word2vec on our data
 ```
 python3 src.train_word2vec.py --data_path="Data/corpus.txt"
 ```
