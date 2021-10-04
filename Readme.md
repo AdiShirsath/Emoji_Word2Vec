@@ -46,9 +46,9 @@ Pre trained model can be found [here](https://drive.google.com/drive/folders/1-8
 ### Results:-
 1. Prediction
 
-<img src="https://user-images.githubusercontent.com/75840165/133033855-74d460c8-4c39-45ac-b216-5e1e6f6f4257.png" height=300 width=500 />
+    <img src="https://user-images.githubusercontent.com/75840165/133033855-74d460c8-4c39-45ac-b216-5e1e6f6f4257.png" height=300 width=500 />
 
 2. Similarity:-
 
-<img src="https://user-images.githubusercontent.com/75840165/133034111-cec6faa6-314f-46fe-b2c8-830f27ea4d76.png" height=100 width=500 />
+    <img src="https://user-images.githubusercontent.com/75840165/133034111-cec6faa6-314f-46fe-b2c8-830f27ea4d76.png" height=100 width=500 />
 
