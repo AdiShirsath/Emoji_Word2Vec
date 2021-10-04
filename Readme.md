@@ -22,23 +22,23 @@ We have 1 million sentences with emojis. This dataset is from twitter and you ca
     from src.prediction import Prediction
     predictor = Prediction(model_path="word2vec.bin")
     ```
-Once we have prediction instance we can use following methods.
-#### Methods in prediction
+    Once we have prediction instance we can use following methods.
+    #### Methods in prediction
 
-1. getPrediction 
-* Get only emojis for given text from top 200 most similar embeddings.
-  ```python
-  predictor.getPrediction("cat",emoji_only=True, topn=200)
-  ```
-2. get_similarity
-* How similar given two words are
-  ```python
-  predictor.get_similarity(w1="😘", w2="😙")
-  ```
-3. get_vector_embedding
-    ```python
-    predictor.get_vector_embedding("🐰")
-    ```
+    1. getPrediction 
+    * Get only emojis for given text from top 200 most similar embeddings.
+      ```python
+      predictor.getPrediction("cat",emoji_only=True, topn=200)
+      ```
+    2. get_similarity
+    * How similar given two words are
+      ```python
+      predictor.get_similarity(w1="😘", w2="😙")
+      ```
+    3. get_vector_embedding
+        ```python
+        predictor.get_vector_embedding("🐰")
+        ```
 
 ### Model:-
 Pre trained model can be found [here](https://drive.google.com/drive/folders/1-8zMyK-xHlf5-siX1ta3WCxJ2lTG8ev2?usp=sharing), Where woed2vec4 is final model.
