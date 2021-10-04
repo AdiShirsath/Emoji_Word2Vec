@@ -4,7 +4,7 @@ Training Word2Vec model for emojis using twitter data.
 ### Data:-
 We have 1 million sentences with emojis. This dataset is from twitter and you can download it from [here](https://github.com/AdiShirsath/Machine-Learning-Notes/tree/main/NLP/word2vec/word2vec_emoji/Data).
 
-### Usage:- 
+### Usage:-
 
 1. Install requirements
     ```python
@@ -25,7 +25,7 @@ We have 1 million sentences with emojis. This dataset is from twitter and you ca
     Once we have prediction instance we can use following methods.
     #### Methods in prediction
 
-    1. getPrediction 
+    1. getPrediction
     * Get only emojis for given text from top 200 most similar embeddings.
       ```python
       predictor.getPrediction("cat",emoji_only=True, topn=200)
@@ -51,4 +51,3 @@ Pre trained model can be found [here](https://drive.google.com/drive/folders/1-8
 2. Similarity:-
 
     <img src="https://user-images.githubusercontent.com/75840165/133034111-cec6faa6-314f-46fe-b2c8-830f27ea4d76.png" height=100 width=500 />
-
